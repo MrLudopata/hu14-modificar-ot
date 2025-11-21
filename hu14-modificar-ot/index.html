@@ -1,1 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HU14 – Modificar OT</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Órdenes de Trabajo (OT)</h1>
+    <div class="actions"><button id="btnRefrescar">Refrescar</button></div>
+  </header>
+  <main>
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th>ID</th><th>Título / Descripción</th><th>Estado</th>
+          <th>Fecha inicio contrato</th><th>Fecha fin contrato</th>
+          <th>Responsable</th><th></th>
+        </tr>
+      </thead>
+      <tbody id="otBody"></tbody>
+    </table>
+    <p id="vacio" class="muted" hidden>No hay OT para mostrar.</p>
+  </main>
+  <footer class="footer">Prototipo TRL4 — HU14 Modificar OT</footer>
+  <script src="js/app.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', async () => {
+      await App.init(); await App.listarOT();
+      document.getElementById('btnRefrescar').onclick = () => App.listarOT();
+    });
+  </script>
+</body>
+</html>
 
