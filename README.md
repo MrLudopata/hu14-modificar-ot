@@ -7,3 +7,4 @@ Prototipo **TRL4** (datos simulados). Cubre:
 - Mensajes de éxito/error y auditoría simulada.
 
 ## Ejecutar
+
