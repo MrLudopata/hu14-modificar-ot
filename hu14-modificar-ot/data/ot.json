@@ -1,1 +1,9 @@
+[
+  { "id": 1, "titulo": "Contrato de Mantención Eléctrica", "estado": "En Proceso",
+    "fechaInicio": "2024-01-10", "fechaFin": "2024-03-10", "responsable": 101 },
+  { "id": 2, "titulo": "Contrato de Equipos Informáticos", "estado": "Creada",
+    "fechaInicio": "2024-02-05", "fechaFin": "2024-05-05", "responsable": 102 },
+  { "id": 3, "titulo": "Contrato de Limpieza Industrial", "estado": "Finalizada",
+    "fechaInicio": "2023-10-01", "fechaFin": "2024-01-01", "responsable": 101 }
+]
 
